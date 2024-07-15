@@ -16,7 +16,6 @@ const config = createConfig({
 const queryClient = new QueryClient();
 
 function App() {
-  console.log("hey");
   return (
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
